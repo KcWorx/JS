@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+.bet-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    border: 1px solid #e0e0e0;
+}
+.bet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.bet-category {
+    font-size: 14px;
+    color: #888;
+}
+.bet-time {
+    font-size: 14px;
+    color: #888;
+}
+.bet-question {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.bet-options {
+    display: flex;
+    justify-content: space-between;
+}
+.bet-option {
+    width: 38%;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    font-size: 25px;
+}
+
+.yes:hover{
+     color: white;
+    background-color: #00c076 ;
+    border: solid 2px transparent;
+
+}
+.yes {
+    font-weight: 600;
+    color:  #00c076;
+    border: solid 2px #00c076;
+    background-color: transparent;
+}
+.no {
+    font-weight: 600;
+    color:  #ff3860;
+    border: solid 2px #ff3860;
+    background-color: transparent;
+}
+.no:hover{
+    color: white;
+    background-color: #ff3860;
+    border: solid 2px transparent;
+    
+}
+.bet-footer {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.bet-volume {
+    font-size: 13px;
+    color: #888;
+    
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.bet-bookmark{
+    color: #888;
+}
+
+.material-symbols-outlined:hover {
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .bet-bookmark:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.bet-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.bet-image{
+    height:"80px";
+     width:"80px";
+     border-radius: 5px;
+     margin-right: 30px;
+
+}
